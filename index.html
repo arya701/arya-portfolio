@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Arya Sahu</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 🌿 Fixed Navbar -->
+  <header id="navbar">
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 🍃 Hero Section with Background Image -->
+  <section class="site-header" id="hero">
+    <div class="header-text">
+      <h1><span id="typed-text"></span><span class="cursor">|</span><br></h1>
+      An ML Enthusiast on a Whimsical Learning Journey.
+      </div>
+        <img src="images/background2.jpeg" alt="header" class="header-img">
+      </div>
+  </section>
+
+
+  <!-- ✨ About Box floating over the header -->
+  <section id= about>
+  <div class="about-box">
+    <div class="jiji-container">
+    <img 
+      src="../images/jiji.png" 
+      alt="Jiji the cat" 
+      id="jiji"
+    />
+  </div>
+    <img src="images/pic.jpg" alt="Me!" class="about-pic" />
+    <audio id="meow-sound" src="sounds/meow.mp3" loop></audio>
+
+
+    <div class="about-text">
+      <h2>Hi, I'm Arya </h2>
+       <p> I am a Data Science grad on a mission to learn, build, and romanticize the hell out of machine learning. <br>This site is my little digital garden — a place to track my ML learning journey, 
+        showcase what I’m building along the way, and share it all with anyone curious enough to peek in.<br>From fine-tuning BERT to styling Streamlit dashboards, I’m exploring the full-stack world of ML with equal parts curiosity and caffeine.</p>
+      <h3>💻 Skills</h3>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>Machine Learning</li>
+        <li>Natural Language Processing</li>
+        <li>Scikit-Learn</li>
+        <li>Streamlit</li>
+        <li>BERT</li>
+        <li>Hugging Face</li>
+        <li>Git & GitHub</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>UI/UX Design</li>
+        <li>✨Being iconic under pressure</li>
+      </ul>
+ 
+      <a href="https://drive.google.com/file/d/18r_H1T1LS1BahTQkU8Mys_Vz6wYuFrDs/view?usp=sharing" class="btn btn-resume" target="_blank">📄 View My Resume</a>
+    </div>
+  </div>
+  </section>
+</header>
+
+
+
+  <section id="projects">
+  <h2>Projects</h2>
+  <div class="project-container">
+    <div class="project-card">
+      <h3>Movie Recommendation System</h3>
+      <img src="images/demo1.png" alt="Demo preview" style="width:100%; border-radius:1rem;" />
+      <div class="project-buttons">
+        <a href="https://huggingface.co/spaces/aryaa701/movie-recommendation-system" target="_blank" class="btn btn-live">
+          Live Demo ↗
+        </a>
+        <a href="project-details/classifier.html" target="_blank" class="btn btn-read">
+          How I Built This
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Resume Shortlisting System</h3>
+      <img src="images/demo2.png" alt="Demo preview" style="width:100%; border-radius:1rem;" />
+      <div class="project-buttons">
+        <a href="https://huggingface.co/spaces/aryaa701/resume-shortlisting-system" target="_blank" class="btn btn-live">
+          Live Demo ↗
+        </a>
+        <a href="project-details/classifier.html" target="_blank" class="btn btn-read">
+          How I Built This
+        </a>
+      </div>
+    </div>
+
+   
+    <!-- Add more cards as needed -->
+  </div>
+</section>
+
+<section id="contact" class="ghibli-contact">
+  <h2>🌿 Send a lil magical message</h2>
+  <p>The spirits told me you might want to connect... </p>
+
+  <div class="contact-creatures">
+    <a href="mailto:arya7012002@gmail.com" class="creature-card" target="_blank">
+      📜<br><span>Email</span>
+    </a>
+    <a href="https://github.com/arya701" class="creature-card" target="_blank">
+      🧪<br><span>GitHub</span>
+    </a>
+    <a href="https://linkedin.com/in/arya-sahu-394a46229/" class="creature-card" target="_blank">
+      🎩<br><span>LinkedIn</span>
+    </a>
+    <a href="https://huggingface.co/aryaa701" class="creature-card" target="_blank">
+      🤗<br><span>Hugging Face</span>
+    </a>
+  </div>
+</section>
+
+<div id="soot-sprite-zone"></div>
+<!-- 
+  <div class="bottom-banner">
+    <p class="bottom-text">Made with love by Arya &lt;3</p>
+    <img src="images/totoro.png" alt="Cute PNG buddy" />
+  </div> -->
+
+  <div class="bottom-banner-wrapper">
+  <p class="bottom-text">Made with love by Arya &lt;3</p>
+  <div class="bottom-banner">
+    <img src="images/totoro.png" alt="Totoro gang" />
+  </div>
+</div>
+
+
+
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
