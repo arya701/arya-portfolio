@@ -65,7 +65,11 @@ body {
   white-space: nowrap; /* Optional: Keeps it on one line */   
   text-overflow: unset/* Only if you want "..." on cutoff */
 }
-
+@media (max-width: 768px) {
+  .header-text {
+    font-size: 5vh; /* Mobile tweak */
+  }
+}
 
 /* Float Animation */
 @keyframes floatHeader {
@@ -123,7 +127,7 @@ h1 {
 #navbar.scrolled {
   top: 0.9rem;
   width: fit-content;
-  padding: 0rem 1.5rem;
+  padding: 0rem 1rem;
   background: var(--ghibli-beige);
   border-radius: 999px;
   transition: width 0.8s ease-in-out, top 0.8s ease-in-out, border-radius 0.8s ease-in-out ;
