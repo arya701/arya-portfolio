@@ -213,6 +213,30 @@ h1 {
   background-color: #eec740;
 }
 
+@media (max-width: 768px) {
+
+  .about-pic {
+  width: 150px; /* was 200px */
+  height: 150px;
+  float: left;
+  margin-right: 1rem;
+}
+
+  .about-text h2 {
+    font-size: 1.1rem;
+  }
+
+  .about-text p {
+    font-size: 0.95rem;
+  }
+
+  .btn-resume {
+  padding: 0.4rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+}
+
 
 #projects {
   margin-top: 0rem;
