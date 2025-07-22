@@ -227,7 +227,7 @@ h1 {
 
 @media (max-width: 768px) {
 
-  about-pic {
+  .about-pic {
   display: none;
 }
   .about-pic-mobile {
