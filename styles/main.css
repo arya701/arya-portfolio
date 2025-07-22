@@ -472,7 +472,7 @@ h1 {
 
 @media (max-width: 768px) {
   .bottom-text {
-    margin-bottom: -70px; /* or whatever looks right */
+    margin-bottom: -20px; /* or whatever looks right */
     font-size: 1rem; /* optional tweak for smaller screens */
   }
 }
