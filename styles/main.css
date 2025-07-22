@@ -213,25 +213,10 @@ h1 {
   background-color: #eec740;
 }
 
-.desktop-only {
-  display: block;
-}
-
-.mobile-only {
-  display: none;
-}
 
 @media (max-width: 768px) {
-
-  .desktop-only {
-    display: none;
-  }
-
-  .mobile-only {
-    display: block;
-  }
   
-  .mobile-only.about-pic {
+  .about-pic {
   width: 150px; /* was 200px */
   height: 150px;
   float: left;
