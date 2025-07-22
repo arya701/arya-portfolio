@@ -470,6 +470,14 @@ h1 {
   padding: 6px 16px;
 }
 
+@media (max-width: 768px) {
+  .bottom-text {
+    margin-bottom: -70px; /* or whatever looks right */
+    font-size: 1rem; /* optional tweak for smaller screens */
+  }
+}
+
+
 .bottom-banner {
   display: flex;
   justify-content: flex-end;
